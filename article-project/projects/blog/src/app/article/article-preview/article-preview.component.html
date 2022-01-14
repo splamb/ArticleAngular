@@ -1,0 +1,14 @@
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ content.title }}</h5>
+          <p class="card-text">{{ content.content }}</p>
+          <!-- <a href= "{{ linkToArticle }}" class="btn btn-primary">Open Article</a> -->
+          <a href="{{ linkToArticle }}" class="btn btn-primary">Open Article</a>
+          <!-- <button class="btn btn-primary" (click)="triggerOutput()">Increment</button> -->
+          <p class="card-text"><small class="text-muted">Created {{content.createdAt}}</small></p>
+        </div>
+      </div>
+    </div>
+  </div>

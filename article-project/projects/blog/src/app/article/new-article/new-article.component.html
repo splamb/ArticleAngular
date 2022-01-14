@@ -1,0 +1,14 @@
+<p>new-article works!</p>
+<div class="form-group">
+    <label>Title</label>
+    <input type="text" [(ngModel)]="title">
+</div>
+<div class="form-group">
+    <label>Content</label>
+    <input type="text" [(ngModel)]="content">
+</div>
+<div class="form-group">
+    <label>Author</label>
+    <input type="text" [(ngModel)]="author">
+</div>
+<button (click)="createNewArticle()">Create</button>
